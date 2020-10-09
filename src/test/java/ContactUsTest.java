@@ -18,7 +18,7 @@ public class ContactUsTest {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Practico2testing\\Practico2testing\\src\\main\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", ".\\src\\main\\resources\\chromedriver.exe");
         driver = new ChromeDriver();
         js = (JavascriptExecutor) driver;
         vars = new HashMap<String, Object>();
